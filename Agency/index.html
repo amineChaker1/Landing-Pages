@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>موقع شركة</title>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#list-example"
+    data-bs-smooth-scroll="true"
+    class="scrollspy-example"
+    tabindex="0"
+  >
+    <nav
+      class="navbar navbar-expand-lg fixed-top"
+      id="navbar"
+      style="z-index: 15"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#service"
+                >خدمات الشركة</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">مشاريع سابقة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stat">احصائيات الشركة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">تواصل معنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="overlay">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-content">
+                <p>
+                  وكالتنا متخصصة في برمجة و تصميم المواقع الالكترونية و تطبيقات
+                  الموبايل
+                </p>
+                <a href="#project">تصفح أعمالنا</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <p>
+                  وكالتنا متخصصة في برمجة و تصميم المواقع الالكترونية و تطبيقات
+                  الموبايل
+                </p>
+                <a href="#contact">تواصل معنا</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <p>
+                  وكالتنا متخصصة في برمجة و تصميم المواقع الالكترونية و تطبيقات
+                  الموبايل
+                </p>
+                <a href="#stat">احصائيات خدماتنا</a>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <i class="fa-solid fa-angle-right" style="font-size: 30px"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <i class="fa-solid fa-angle-left" style="font-size: 30px"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="service" id="service">
+        <div class="service-title text-center">
+          <h3>خدمات الشركة</h3>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card text-center">
+                <div class="card-img">
+                  <img src="img/feature-1.png" alt="" />
+                </div>
+                <div class="card-info">
+                  <h4>تصميم المواقع و التطبيقات</h4>
+                  <p>
+                    يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي توفرها
+                    الشركة في فقرة ذات أسطر محدودة لجدب انتباه المستخدم
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center">
+                <div class="card-img">
+                  <img src="img/feature-2.png" alt="" />
+                </div>
+                <div class="card-info">
+                  <h4>برمجة المواقع الالكترونية</h4>
+                  <p>
+                    يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي توفرها
+                    الشركة في فقرة ذات أسطر محدودة لجدب انتباه المستخدم
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center">
+                <div class="card-img">
+                  <img src="img/feature-3.png" alt="" />
+                </div>
+                <div class="card-info">
+                  <h4>إنتاج و مونتاج الفيديوهات</h4>
+                  <p>
+                    يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي توفرها
+                    الشركة في فقرة ذات أسطر محدودة لجدب انتباه المستخدم
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project" id="project">
+        <div class="project-title text-center">
+          <h3>أعمال الشركة</h3>
+        </div>
+        <div class="gallery-work">
+          <div class="row g-0">
+            <div class="col-sm-6 col-md-3">
+              <a href="#img1" class="gallery-link">
+                <img src="img/gallery/1.jpg" alt="" />
+                <div class="gallery-hover">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img1">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="img/gallery/1.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>تصميم فيديو لمؤسسة الابداع لتطوير و تصميم الويب</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">Photoshop ,</li>
+                        <li class="list-inline-item">Video Editing ,</li>
+                      </ul>
+                      <p>
+                        يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي
+                        توفرها الشركة في فقرة ذات أسطر محدودة لجدب انتباه
+                        المستخدم
+                      </p>
+                      <a href="#" class="btn">زيارة المشروع</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img2" class="gallery-link">
+                <img src="img/gallery/2.jpg" alt="" />
+                <div class="gallery-hover">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img2">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="img/gallery/2.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>تصميم فيديو لمؤسسة الابداع لتطوير و تصميم الويب</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">Photoshop ,</li>
+                        <li class="list-inline-item">Video Editing ,</li>
+                      </ul>
+                      <p>
+                        يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي
+                        توفرها الشركة في فقرة ذات أسطر محدودة لجدب انتباه
+                        المستخدم
+                      </p>
+                      <a href="#" class="btn">زيارة المشروع</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img3" class="gallery-link">
+                <img src="img/gallery/3.jpg" alt="" />
+                <div class="gallery-hover">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="img/gallery/3.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>تصميم فيديو لمؤسسة الابداع لتطوير و تصميم الويب</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">Photoshop ,</li>
+                        <li class="list-inline-item">Video Editing ,</li>
+                      </ul>
+                      <p>
+                        يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي
+                        توفرها الشركة في فقرة ذات أسطر محدودة لجدب انتباه
+                        المستخدم
+                      </p>
+                      <a href="#" class="btn">زيارة المشروع</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img4" class="gallery-link">
+                <img src="img/gallery/4.jpg" alt="" />
+                <div class="gallery-hover">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img4">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="img/gallery/4.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>تصميم فيديو لمؤسسة الابداع لتطوير و تصميم الويب</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">Photoshop ,</li>
+                        <li class="list-inline-item">Video Editing ,</li>
+                      </ul>
+                      <p>
+                        يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي
+                        توفرها الشركة في فقرة ذات أسطر محدودة لجدب انتباه
+                        المستخدم
+                      </p>
+                      <a href="#" class="btn">زيارة المشروع</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img5" class="gallery-link">
+                <img src="img/gallery/5.jpg" alt="" />
+                <div class="gallery-hover">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="img/gallery/5.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>تصميم فيديو لمؤسسة الابداع لتطوير و تصميم الويب</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">Photoshop ,</li>
+                        <li class="list-inline-item">Video Editing ,</li>
+                      </ul>
+                      <p>
+                        يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي
+                        توفرها الشركة في فقرة ذات أسطر محدودة لجدب انتباه
+                        المستخدم
+                      </p>
+                      <a href="#" class="btn">زيارة المشروع</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img6" class="gallery-link">
+                <img src="img/gallery/6.jpg" alt="" />
+                <div class="gallery-hover">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img6">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="img/gallery/6.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>تصميم فيديو لمؤسسة الابداع لتطوير و تصميم الويب</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">Photoshop ,</li>
+                        <li class="list-inline-item">Video Editing ,</li>
+                      </ul>
+                      <p>
+                        يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي
+                        توفرها الشركة في فقرة ذات أسطر محدودة لجدب انتباه
+                        المستخدم
+                      </p>
+                      <a href="#" class="btn">زيارة المشروع</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img7" class="gallery-link">
+                <img src="img/gallery/7.jpg" alt="" />
+                <div class="gallery-hover">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img7">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="img/gallery/7.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>تصميم فيديو لمؤسسة الابداع لتطوير و تصميم الويب</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">Photoshop ,</li>
+                        <li class="list-inline-item">Video Editing ,</li>
+                      </ul>
+                      <p>
+                        يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي
+                        توفرها الشركة في فقرة ذات أسطر محدودة لجدب انتباه
+                        المستخدم
+                      </p>
+                      <a href="#" class="btn">زيارة المشروع</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#img8" class="gallery-link">
+                <img src="img/gallery/8.jpg" alt="" />
+                <div class="gallery-hover">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+              </a>
+              <div class="gallery-overlay" id="img8">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="overlay-img">
+                      <img src="img/gallery/8.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="overlay-text">
+                      <h4>تصميم فيديو لمؤسسة الابداع لتطوير و تصميم الويب</h4>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          <i class="fa-solid fa-tags"></i>
+                        </li>
+                        <li class="list-inline-item">Photoshop ,</li>
+                        <li class="list-inline-item">Video Editing ,</li>
+                      </ul>
+                      <p>
+                        يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي
+                        توفرها الشركة في فقرة ذات أسطر محدودة لجدب انتباه
+                        المستخدم
+                      </p>
+                      <a href="#" class="btn">زيارة المشروع</a>
+                      <a href="#page" class="close">X</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="stat" id="stat">
+        <div class="overlay text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-3">
+                <div class="stat-icon">
+                  <img src="img/icon1.png" alt="" />
+                </div>
+                <div class="count" id="website-count"></div>
+                <span class="counter">موقع الكتروني</span>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class="stat-icon">
+                  <img src="img/icon2.png" alt="" />
+                </div>
+                <div class="count" id="app-count"></div>
+                <span class="counter">تطبيقات الموبايل</span>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class="stat-icon">
+                  <img src="img/icon3.png" alt="" />
+                </div>
+                <div class="count" id="user-count"></div>
+                <span class="counter">عدد المستخدمين</span>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class="stat-icon">
+                  <img src="img/icon4.png" alt="" />
+                </div>
+                <div class="count" id="video-count"></div>
+                <span class="counter">فيديو مونتاج</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.38827047405!2d2.7888806244018474!3d36.64110889977855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b8931bce07504!2sEcole%20Nationale%20Sup%C3%A9rieure%20de%20Statistique%20et%20d%E2%80%99Economie%20Appliqu%C3%A9e%20Kol%C3%A9a!5e0!3m2!1sfr!2sdz!4v1656266364366!5m2!1sfr!2sdz"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-adress">
+                <h4>عناوين الشركة</h4>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <address style="display: inline">
+                      المدرسة الوطنية العليا للإحصاء و الإقتصاد التطبيقي
+                    </address>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <address style="display: inline">
+                      الإقامة الجامعية أحمد اسبنطوط بالقليعة
+                    </address>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="contact-us">
+            <div class="contact-text text-center">
+              <h3>تواصل معنا</h3>
+            </div>
+            <form class="contact-form row needs-validation" novalidate>
+              <div class="col-md-6 mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="الاسم"
+                  required
+                />
+                <div class="invalid-feedback">ادخل اسم مستخدم صحيح</div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="بريدك الالكتروني"
+                  required
+                />
+                <div class="invalid-feedback">ادخل بريد الكتروني صحيح</div>
+              </div>
+              <div class="col-12 mb-3">
+                <textarea
+                  rows="5"
+                  class="form-control"
+                  placeholder="الرسالة"
+                  required
+                ></textarea>
+                <div class="invalid-feedback">ادخل رسالة قصيرة</div>
+              </div>
+              <button type="submit" class="btn">ارسال</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="top-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about">
+                <h5>عن الشركة</h5>
+                <p>
+                  يحتوي هذا الجزء على فقرة نصية توصف بها الخدمة التي توفرها
+                  الشركة في فقرة ذات أسطر محدودة لجدب انتباه المستخدم
+                </p>
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-github-square"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="message">
+                <h5>الاتصال بالشركة</h5>
+                <ul class="contact-list">
+                  <li>
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    الإقامة الجامعية أحمد اسبنطوط بالقليعة
+                  </li>
+                  <li><i class="fa-solid fa-phone-flip"></i>0675284423</li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i>paamine.2003@gmail.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center">
+        <p>جميع الحقوق محفوظة <span>@أمين شاكر</span></p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/countUp.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

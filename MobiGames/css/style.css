@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background: url(../img/slide3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header .icon {
+  width: 100px;
+  margin: 100px 30px 30px 30px;
+}
+.mobi:hover {
+  color: rgb(240, 6, 45);
+}
+#count {
+  margin-top: 40px;
+}
+footer {
+  background: url(../img/BACK.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+  margin-top: 120px;
+}
+#social {
+  padding: 20px;
+}

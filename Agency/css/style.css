@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+}
+.navbar-brand img {
+  width: 80%;
+}
+.navbar .nav-item a.nav-link {
+  color: #e8e8e8;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  transition: all 0.5s ease;
+}
+.navbar .nav-item a.nav-link:hover,
+.navbar .nav-item a.nav-link.active {
+  color: #16aeca;
+  background-color: #e8e8e8;
+  border-radius: 3px;
+}
+.navbar button.navbar-toggler {
+  border: 0;
+}
+nav.navbar.noTransparent {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+nav.navbar.noTransparent .nav-item a.nav-link {
+  color: #16aeca;
+}
+.navbar.noTransparent .nav-item a.nav-link:hover,
+.navbar.noTransparent .nav-item a.nav-link.active {
+  color: #e8e8e8;
+  background-color: #16aeca;
+}
+.navbar.noTransparent button.navbar-toggler {
+  color: #16aeca;
+  border: 0;
+}
+
+header {
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .overlay {
+  background: linear-gradient(
+    to right,
+    rgba(46, 178, 181, 0.8),
+    rgba(197, 203, 50, 0.8)
+  );
+  min-height: 100vh;
+}
+header .overlay .carousel .carousel-item {
+  min-height: 100vh;
+  position: relative;
+}
+header .overlay .carousel .carousel-item .carousel-content {
+  position: absolute;
+  top: 40%;
+  right: 15%;
+  left: 15%;
+  text-align: center;
+}
+header .overlay .carousel .carousel-item .carousel-content p {
+  color: #e8e8e8;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 60px;
+}
+header .overlay .carousel .carousel-item .carousel-content a {
+  text-decoration: none;
+  color: #e8e8e8;
+  background-color: #16aeca;
+  padding: 10px 40px;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+header .overlay .carousel .carousel-item .carousel-content a:hover {
+  background-color: #dae413;
+  color: #555;
+}
+
+.service {
+  min-height: 800px;
+  padding: 100px 0;
+}
+.service .service-title h3 {
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 50px;
+}
+.service .card {
+  height: 330px;
+  padding: 40px;
+  margin-bottom: 20px;
+  transition: all 1s ease-in-out;
+  border: 2px solid rgba(128, 128, 128, 0.405);
+}
+.service .card:hover {
+  height: 400px;
+  cursor: pointer;
+}
+.service .card .card-img {
+  margin-bottom: 40px;
+}
+.service .card .card-info h4 {
+  font-size: 24px;
+  color: #070c0c;
+  margin-bottom: 25px;
+}
+.service .card .card-info p {
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 0;
+  transition: all 1.5s ease;
+}
+.service .card:hover .card-info p {
+  opacity: 1;
+}
+.project .project-title h3 {
+  font-size: 40px;
+  color: #070c0c;
+  margin-bottom: 60px;
+}
+.project .gallery-work .gallery-link {
+  position: relative;
+  display: block;
+}
+.project .gallery-work .gallery-link img {
+  width: 100%;
+}
+.project .gallery-work .gallery-link .gallery-hover {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  right: 5%;
+  color: #e8e8e8;
+  background-color: rgba(22, 174, 202, 0.9);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.project .gallery-work .gallery-link .gallery-hover:hover {
+  opacity: 1;
+}
+.project .gallery-work .gallery-link .gallery-hover i {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  font-size: 36px;
+  transform: translate(50%, 50%);
+}
+.project .gallery-work .gallery-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 5% 10%;
+  opacity: 0;
+  margin-top: -100vh;
+  transition: all 1s ease;
+  z-index: 999;
+}
+.project .gallery-work .gallery-overlay:target {
+  opacity: 1;
+  margin-top: 0;
+}
+.overlay-img img {
+  width: 100%;
+}
+.overlay-text {
+  margin-top: 50px;
+}
+.overlay-text h4 {
+  font-size: 36px;
+  line-height: 52px;
+  color: #16aeca;
+  margin-bottom: 30px;
+}
+.overlay-text ul {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #efefef;
+}
+.overlay-text li {
+  color: #555;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.overlay-text p {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 50px;
+  color: #919191;
+}
+.overlay-text a.btn {
+  font-size: 20px;
+  line-height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+  background-color: #16aeca;
+  color: #eee;
+  transition: all 0.5s ease;
+  border: 0;
+}
+.overlay-text a.btn:hover {
+  background-color: #eee;
+  color: #16aeca;
+}
+.close {
+  color: #16aeca;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+.close:hover {
+  color: #eee;
+}
+.stat {
+  background-image: url(../img/bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.stat .overlay {
+  background-color: rgba(22, 174, 202, 0.8);
+  padding: 140px 0px 100px 0;
+}
+.stat .overlay .stat-icon {
+  margin-bottom: 20px;
+}
+.stat .overlay .count {
+  color: #eee;
+  font-size: 40px;
+  margin: 30px auto 20px;
+  font-weight: bold;
+}
+.stat .overlay .counter {
+  color: #eee;
+  font-size: 18px;
+  line-height: 36px;
+}
+.contact {
+  padding: 100px 0 60px 0;
+}
+.contact .map iframe {
+  min-height: 200px;
+  width: 90%;
+}
+.contact .contact-adress h4 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.contact .contact-adress ul {
+  list-style: none;
+  padding: 0;
+}
+.contact .contact-adress li {
+  font-size: 18px;
+  line-height: 25px;
+  color: #16aeca;
+  margin-bottom: 15px;
+}
+.contact .contact-us .contact-text {
+  margin: 50px auto 20px;
+}
+.contact .contact-us .contact-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.contact .contact-us .contact-form {
+  width: 60%;
+  margin: auto;
+}
+.contact .contact-us .contact-form input,
+.contact .contact-us .contact-form textarea {
+  background-color: #f7f7f7;
+  border: 2px solid #ececec;
+  color: #5c5c5c;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 3px;
+  text-align: right;
+}
+.contact .contact-us .contact-form .btn {
+  background-color: #16aeca;
+  color: #eee;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 3px;
+  width: auto;
+  margin-right: 1.8vmin;
+  transition: all 0.5s ease;
+}
+.contact .contact-us .contact-form .btn:hover {
+  background-color: #eee;
+  color: #16aeca;
+}
+footer .top-footer {
+  padding: 75px 0;
+  background-color: #171717;
+}
+footer .top-footer h5 {
+  position: relative;
+  font-size: 18px;
+  line-height: 45px;
+  color: #16aeca;
+  margin-bottom: 30px;
+}
+footer .top-footer h5::after {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: #16aeca;
+}
+footer .top-footer .about p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #919191;
+}
+footer .top-footer .about a {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  background-color: #333333;
+  color: #acacac;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+  transition: all 0.5s ease;
+}
+footer .top-footer .about a:hover {
+  background-color: #16aeca;
+  color: #eee;
+}
+footer .message ul.contact-list {
+  list-style: none;
+  padding: 0;
+}
+footer .message ul.contact-list i {
+  margin-left: 15px;
+  background-color: #333333;
+  color: #acacac;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 3px;
+}
+footer .message ul.contact-list li {
+  font-size: 18px;
+  color: #676767;
+  margin-bottom: 35px;
+}
+footer .copyright {
+  background-color: #111111;
+  padding: 40px 0px 30px 0px;
+}
+footer .copyright p {
+  font-size: 15px;
+  color: #acacac;
+}
+footer .copyright span {
+  color: #16aeca;
+}
+
+@media (max-width: 992px) {
+  .service .card {
+    padding: 20px;
+    height: 440px;
+  }
+  .service .card .card-img img {
+    margin-bottom: 15px;
+  }
+  .service .card .card-info h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .service .card .card-info p {
+    opacity: 1;
+  }
+  .contact .map iframe {
+    width: 100%;
+  }
+  .contact .contact-us .contact-form {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .gallery .gallery-work .gallery-overlay {
+    margin-top: -190vh;
+  }
+}
