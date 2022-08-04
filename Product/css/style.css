@@ -82,8 +82,21 @@ main {
   background-color: white;
 }
 .features {
-  padding: 2vmin 30vmin;
+  padding: 2vmin 10vmin;
 }
+@media (max-width: 576px) {
+  .features p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .features p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+
 .main-title {
   text-align: center;
   position: relative;
